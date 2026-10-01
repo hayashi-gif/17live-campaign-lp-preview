@@ -42,10 +42,16 @@ a {
 }
 
 .lp {
-  max-width: var(--design-width);
+  width: 100%;
   margin: 0 auto;
   background: #fff;
   overflow: hidden;
+}
+
+@media (min-width: 600px) {
+  .lp {
+    max-width: var(--design-width);
+  }
 }
 
 .section {
